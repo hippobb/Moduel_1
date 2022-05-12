@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+/*Define the header general specification*/
+header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*Define the font size of the header h1*/
+header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Define a set of navigation links*/
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    margin: 7px 0;
+    font-size: 20px; 
+}
+/* Define an unordered list*/
+header nav ul {
+    list-style-type: none;
+    margin-left: 25px;    
+}
+/* inline an unordered list*/
+header nav ul li {
+    display: inline;    
+    margin-left: 25px;
+}
+  
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    
+ }
+ /* Define the background picture*/ 
+.back_img{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+}
+
+/* Define the general specification  of the left column*/
+.Left_column{
+    color:#ffffff;
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Define the detail of the "content" such as size */
+.content {
+    padding: 50px; 
+    margin-bottom: 20px;
+    height: 300px;
+    background-color: #0072bb;
+    
+}
+.detail h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+/* the image will be placed on left hand side*/
+.left_img{
+    max-height: 200px;
+    float: left;
+}
+/* the image will be placed on right hand side*/
+.right_img{
+    max-height: 200px;
+    float: right;
+}
+/* the text will be alligned on left hand side*/
+.text-left{
+    float: left;
+    margin-left: 25px;
+    width: 64%;
+    text-align: left;
+}
+/* the text will be alligned on right hand side*/
+.text-right{
+    float: left;
+    margin-right: 25px;
+    width: 64%;
+    text-align: right;
+}
+
+ /* Define the general specification  of the right column (Benefits)*/ 
+.benefits {
+    margin-right: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    color:#ffffff;
+}
+/* Define the general specification of the box benefit*/ 
+.benefit {
+    padding-top: 20px;   
+    padding-left: 20px;  
+    padding-right: 20px;    
+    text-align: center;    
+    background-color: #2589bd;
+}
+
+/* Define the image size*/ 
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Define the general specification of the footer*/ 
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+
